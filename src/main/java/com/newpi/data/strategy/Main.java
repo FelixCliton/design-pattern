@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         Cat[] array = new Cat[]{};
 
-        Sorter sorter = new Sorter();
+        Sorter<Cat> sorter = new Sorter<Cat>();
         sorter.sort(array, new MyComparator<Cat>() {
             @Override
             public int compare(Cat o1, Cat o2) {

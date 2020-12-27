@@ -1,7 +1,5 @@
 package com.newpi.data.strategy;
 
-import java.util.Comparator;
-
 /**
  * @author liujie3@yidian-inc.com
  * @version 1.0
@@ -10,7 +8,7 @@ import java.util.Comparator;
  */
 public class Sorter<T> {
 
-    public void sort(T[] array,Comparator<T> comparator){
+    public void sort(T[] array,MyComparator<T> comparator){
         // sort array
         for (T t : array) {
             //sort
