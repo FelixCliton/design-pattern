@@ -10,7 +10,7 @@ public class Singleton03 {
 
     private Singleton03(){}
 
-    private static Singleton03 INSTANCE;
+    private static volatile Singleton03 INSTANCE;
 
     public synchronized static Singleton03 getInstance(){
         if (INSTANCE == null) {

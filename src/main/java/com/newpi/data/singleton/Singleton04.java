@@ -10,7 +10,7 @@ public class Singleton04 {
 
     private Singleton04(){}
 
-    private static Singleton04 INSTANCE;
+    private static volatile Singleton04 INSTANCE;
 
     public static Singleton04 getInstance(){
         if (INSTANCE == null) {
