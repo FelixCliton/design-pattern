@@ -23,7 +23,6 @@ public class DynamicProxy {
         proxy.killBoss();
         proxy.upgrade();
 
-      DynamicProxyGenerator.generateProxy(ConcreateGamePlayer.class,new GamePlayHandler(new ConcreateGamePlayer("zhangsan")));
     }
 
 }
