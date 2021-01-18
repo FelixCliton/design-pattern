@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48875375-6daf-4b89-ab0d-c90aeaac03ba" name="Default" comment="update 代理模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/NewAppScaleUpState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/OldAppScaleDownState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/ScaleFinishedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/ScaleStartState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/TaskInitState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/TaskState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/readme.md" afterDir="false" />
+    <list default="true" id="48875375-6daf-4b89-ab0d-c90aeaac03ba" name="Default" comment="update 状态模式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxyGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="460">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,45 +28,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="414">
+                <caret line="18" column="159" selection-start-line="18" selection-start-column="159" selection-end-line="18" selection-end-column="159" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="736">
               <caret line="37" column="31" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="31" />
               <folding>
                 <element signature="e#636#637#0" expanded="true" />
                 <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
                 <element signature="e#777#778#0" expanded="true" />
                 <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" selection-start-line="4" selection-end-line="4" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -119,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/NewAppScaleUpState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="391">
               <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="e#405#406#0" expanded="true" />
@@ -141,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
+            <state relative-caret-position="414">
               <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
@@ -209,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/ScaleDownStartState.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/ScaleUpStartState.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/Task.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/TaskState.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/Context.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/TaskInitState.java" />
@@ -218,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/ScaleFinishedState.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/NewAppScaleUpState.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/readme.md" />
       </list>
     </option>
@@ -306,7 +280,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610953388837" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610955228888" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -465,7 +439,7 @@
       <workItem from="1609049066041" duration="14285000" />
       <workItem from="1609241090965" duration="2831000" />
       <workItem from="1610702459244" duration="10145000" />
-      <workItem from="1610935673504" duration="8301000" />
+      <workItem from="1610935673504" duration="10017000" />
     </task>
     <task id="LOCAL-00001" summary="update 加锁实现的单例还需要加上volatile关键字，目的是防止编译时指令重排">
       <created>1609056313738</created>
@@ -502,16 +476,24 @@
       <option name="project" value="LOCAL" />
       <updated>1610879653169</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update 状态模式">
+      <created>1610953560516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610953560516</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35562000" />
+    <option name="totallyTimeSpent" value="37278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-533" y="-1057" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18157615" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17252396" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -522,7 +504,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2818653" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37720206" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23005182" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -560,7 +542,8 @@
     <MESSAGE value="update 策略模式" />
     <MESSAGE value="update 工厂模式" />
     <MESSAGE value="update 代理模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 代理模式" />
+    <MESSAGE value="update 状态模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 状态模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -879,20 +862,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/TaskState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="367">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/TaskInitState.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/ScaleFinishedState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/NewAppScaleUpState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -918,70 +926,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/NewAppScaleUpState.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/TaskInitState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding>
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/ScaleFinishedState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/TaskState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        <state relative-caret-position="414">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
+        <state relative-caret-position="736">
           <caret line="37" column="31" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="31" />
           <folding>
             <element signature="e#636#637#0" expanded="true" />
             <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
             <element signature="e#777#778#0" expanded="true" />
             <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="414">
+            <caret line="18" column="159" selection-start-line="18" selection-start-column="159" selection-end-line="18" selection-end-column="159" />
           </first_editor>
           <second_editor />
         </state>

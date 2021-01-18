@@ -1,10 +1,6 @@
 package com.newpi.data.proxy;
 
-import com.sun.xml.internal.messaging.saaj.util.CharReader;
-import jdk.internal.org.objectweb.asm.ClassReader;
-import jdk.internal.org.objectweb.asm.util.TraceClassVisitor;
-
-import java.io.*;
+import java.io.IOException;
 import java.lang.reflect.Proxy;
 
 /**
