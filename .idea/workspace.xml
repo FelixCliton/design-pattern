@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48875375-6daf-4b89-ab0d-c90aeaac03ba" name="Default" comment="update 状态模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/BossMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/LisiObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/ZhangsanObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/state/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
@@ -41,82 +47,89 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/Context.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Observable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="37" column="31" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="345">
+              <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding>
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/TaskInitState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="322">
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/ScaleStartState.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-              <folding>
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="230">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/OldAppScaleDownState.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/BossMonitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-              <folding>
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="460">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/NewAppScaleUpState.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/ZhangsanObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/LisiObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/ScaleFinishedState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/state/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -142,17 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/VhecialFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/VehiclecFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/Moveable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/Movable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/Plain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/VehicleFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/SimpleVehicleFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/CarFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/Movable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/Plane.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/AbstractVehicleFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/Food.java" />
@@ -193,6 +195,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/state/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Observable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/LogObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Boss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/BossMonitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/ZhangsanObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/LisiObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/observer/readme.md" />
       </list>
     </option>
   </component>
@@ -262,7 +275,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
@@ -280,12 +293,13 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610955228888" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610968724420" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.newpi.data.observer" />
       <recent name="com.newpi.data.state" />
       <recent name="com.newpi.data.factory.abstractfactory" />
       <recent name="com.newpi.data.singleton" />
@@ -303,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -352,13 +366,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newpi.data.strategy.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newpi.data.observer.Main" />
       <module name="design-pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newpi.data.strategy.*" />
+          <option name="PATTERN" value="com.newpi.data.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,13 +380,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newpi.data.singleton.Singleton07" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newpi.data.strategy.Main" />
       <module name="design-pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newpi.data.singleton.*" />
+          <option name="PATTERN" value="com.newpi.data.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,19 +424,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Singleton07" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.DynamicProxy" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.DynamicProxy" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Singleton07" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +453,7 @@
       <workItem from="1609049066041" duration="14285000" />
       <workItem from="1609241090965" duration="2831000" />
       <workItem from="1610702459244" duration="10145000" />
-      <workItem from="1610935673504" duration="10017000" />
+      <workItem from="1610935673504" duration="13951000" />
     </task>
     <task id="LOCAL-00001" summary="update 加锁实现的单例还需要加上volatile关键字，目的是防止编译时指令重排">
       <created>1609056313738</created>
@@ -483,17 +497,24 @@
       <option name="project" value="LOCAL" />
       <updated>1610953560516</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update 状态模式">
+      <created>1610955412229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610955412229</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37278000" />
+    <option name="totallyTimeSpent" value="41212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-533" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17252396" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14962727" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -503,8 +524,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2818653" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23005182" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.09533679" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41139898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -558,65 +579,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/Movable.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/Plane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/Bread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/MuchRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/Broom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/Weapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/AK47.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/abstractfactory/MagicStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -961,6 +923,85 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="414">
             <caret line="18" column="159" selection-start-line="18" selection-start-column="159" selection-end-line="18" selection-end-column="159" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/LogObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/BossMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/ZhangsanObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/LisiObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="322">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           </first_editor>
           <second_editor />
         </state>
