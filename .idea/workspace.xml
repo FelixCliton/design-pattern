@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48875375-6daf-4b89-ab0d-c90aeaac03ba" name="Default" comment="update 访问者模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/abstractfactory/HuaweiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/abstractfactory/IFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/abstractfactory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/abstractfactory/XiaomiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/abstractfactory/model/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/abstractfactory/model/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/abstractfactory/model/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/builder/AbstractHoseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/builder/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/builder/WoodHouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/builder/model/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/builder/model/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/builder/model/Roof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/builder/model/Wall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/factorymethod/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/factorymethod/Movable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/factorymethod/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/factorymethod/SimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/factorymethod/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/singleton/SingleTon01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/singleton/SingleTon02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/singleton/SingleTon03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/singleton/SingleTon04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/singleton/SingleTon05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/createtype/singleton/SingleTon06.java" afterDir="false" />
+    <list default="true" id="48875375-6daf-4b89-ab0d-c90aeaac03ba" name="Default" comment="update create type:工厂方法、抽象工厂、建造者、单例">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -171,15 +146,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="createtype" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -191,7 +157,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621239637681" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621239725218" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -358,7 +324,7 @@
       <workItem from="1611038174815" duration="355000" />
       <workItem from="1611041384020" duration="686000" />
       <workItem from="1621222029385" duration="4805000" />
-      <workItem from="1621235267402" duration="1729000" />
+      <workItem from="1621235267402" duration="1870000" />
     </task>
     <task id="LOCAL-00001" summary="update 加锁实现的单例还需要加上volatile关键字，目的是防止编译时指令重排">
       <created>1609056313738</created>
@@ -423,11 +389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1611021952702</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update create type:工厂方法、抽象工厂、建造者、单例">
+      <created>1621239773963</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621239773963</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54698000" />
+    <option name="totallyTimeSpent" value="54839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="0" />
@@ -485,7 +458,8 @@
     <MESSAGE value="update 状态模式" />
     <MESSAGE value="update 观察者模式" />
     <MESSAGE value="update 访问者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 访问者模式" />
+    <MESSAGE value="update create type:工厂方法、抽象工厂、建造者、单例" />
+    <option name="LAST_COMMIT_MESSAGE" value="update create type:工厂方法、抽象工厂、建造者、单例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -656,6 +630,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -663,6 +641,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -705,6 +687,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
