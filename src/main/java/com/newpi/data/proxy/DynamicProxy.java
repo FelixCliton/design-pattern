@@ -1,5 +1,8 @@
 package com.newpi.data.proxy;
 
+import com.newpi.data.structionalPatterns.proxy.ConcreateGamePlayer;
+import com.newpi.data.structionalPatterns.proxy.IGamePlayer;
+
 import java.io.IOException;
 import java.lang.reflect.Proxy;
 

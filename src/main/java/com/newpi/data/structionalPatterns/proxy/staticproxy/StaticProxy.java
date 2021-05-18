@@ -1,4 +1,6 @@
-package com.newpi.data.proxy;
+package com.newpi.data.structionalPatterns.proxy.staticproxy;
+
+import com.newpi.data.structionalPatterns.proxy.IGamePlayer;
 
 import java.util.Date;
 

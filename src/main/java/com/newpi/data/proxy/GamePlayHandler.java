@@ -1,5 +1,7 @@
 package com.newpi.data.proxy;
 
+import com.newpi.data.structionalPatterns.proxy.IGamePlayer;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.util.Date;

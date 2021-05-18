@@ -1,4 +1,4 @@
-package com.newpi.data.proxy;
+package com.newpi.data.structionalPatterns.proxy;
 
 /**
  * @author liujie3@yidian-inc.com

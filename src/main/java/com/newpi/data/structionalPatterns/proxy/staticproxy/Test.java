@@ -1,4 +1,7 @@
-package com.newpi.data.proxy;
+package com.newpi.data.structionalPatterns.proxy.staticproxy;
+
+import com.newpi.data.structionalPatterns.proxy.ConcreateGamePlayer;
+import com.newpi.data.structionalPatterns.proxy.IGamePlayer;
 
 /**
  * @author liujie3@yidian-inc.com
@@ -6,7 +9,7 @@ package com.newpi.data.proxy;
  * @date: 2021/1/15 5:33 PM
  * @desc:
  */
-public class Main {
+public class Test {
 
     public static void main(String[] args) {
 
