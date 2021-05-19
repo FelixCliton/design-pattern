@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48875375-6daf-4b89-ab0d-c90aeaac03ba" name="Default" comment="update 策略模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/InvokeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/MyPartDataInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/ThirdPartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/ThirdPartyDadaInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/bridge/model/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/InvokeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/LogHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/MyProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/Proxy1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/TimeHandler.java" afterDir="false" />
+    <list default="true" id="48875375-6daf-4b89-ab0d-c90aeaac03ba" name="Default" comment="update 适配器模式、动态代理模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/BaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Handler1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Handler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Handler3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/IHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Observer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Observer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Observer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Observer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/State1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/State2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/CatAgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/CatWeightComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/ConcreteStrategy1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/ConcreteStrategy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/IStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/StrategyContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/AbstractApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/App1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-pattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/ConcreateGamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/ConcreateGamePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/GamePlayHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/GamePlayHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/IGamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/IGamePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/staticproxy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/StaticProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/staticproxy/StaticProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/Adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/bridge/Bridge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/decorator/Decorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/Proxy.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,109 +49,105 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/MyProxy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+            <state relative-caret-position="69">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/AbstractApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/App1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/LogHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/App2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy1.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#1159#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="32" column="1" lean-forward="true" selection-end-line="32" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/InvokeHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/InvokeHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="166" selection-start-line="166" selection-end-line="166" />
+            <state relative-caret-position="436">
+              <caret line="26" column="94" selection-start-line="26" selection-start-column="94" selection-end-line="26" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="368">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/TimeHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/IStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="276">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/ConcreteStrategy1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/ConcreteStrategy2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="51" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="14" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/StrategyContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,6 +158,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -169,43 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/singleton/Singleton02.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/singleton/Singlrton03.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/singleton/Singleton06.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/singleton/Singleton07.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/singleton/Singleton01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/singleton/Singleton03.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/singleton/Singleton04.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/singleton/Singleton05.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/singleton/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/MyComparable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/Cat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/MyComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/Sorter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/brige/Brige.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/brige/Bridge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/bridge/Bridge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/decorator/InputStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/decorator/Decorator.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/ThirtPartyDadaInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/ThirdPartyDadaInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/ThirdPartService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/MyPartDataInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/Adapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/Myservice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/MyService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/bridge/model/Computer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/staticproxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/staticproxy/StaticProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/staticproxy/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/staticproxy/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/ConcreateGamePlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/InvokHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/InvokeHandler.java" />
         <option value="$PROJECT_DIR$/Proxy1.java" />
@@ -216,6 +185,47 @@
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/MyProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/LogHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/IHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/BaseHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Handler3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Handler1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Handler2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/IObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Observer1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Observer2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Publisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Observer1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Observer2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Publisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/ConcreateContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/ConcreteContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/AbstractContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/State1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/State2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Sorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/CatComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Comparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/CatAgeComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Cat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/CatWeightComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/IStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/ConcreteStrategy2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/ConcreteStrategy1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/StrategyContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/App1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/App2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/AbstractApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/Client.java" />
       </list>
     </option>
   </component>
@@ -232,11 +242,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-533" />
     <option name="y" value="-1057" />
     <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="height" value="1006" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -283,7 +293,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="structionalPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioralPatterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
@@ -292,8 +302,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="structionalPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioralPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="template_method" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
@@ -302,9 +312,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="structionalPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,19 +323,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621322091378" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621426327686" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../whitzard" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.newpi.data.structionalPatterns.proxy.dynamicproxy" />
-      <recent name="com.newpi.data.structionalPatterns.brige" />
-      <recent name="com.newpi.data.createtype.singleton" />
-      <recent name="com.newpi.data.createtype.abstractfactory" />
-      <recent name="com.newpi.data.observer" />
+      <recent name="com.newpi.data.behavioralPatterns.template_method" />
+      <recent name="com.newpi.data.behavioralPatterns.strategy" />
+      <recent name="com.newpi.data.behavioralPatterns.state" />
+      <recent name="com.newpi.data.behavioralPatterns.observer.jdk" />
+      <recent name="com.newpi.data.behavioralPatterns.observer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Client">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -351,13 +361,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newpi.data.proxy.DynamicProxy" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newpi.data.behavioralPatterns.observer.jdk.Client" />
       <module name="design-pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newpi.data.structionalPatterns.proxy.*" />
+          <option name="PATTERN" value="com.newpi.data.behavioralPatterns.observer.jdk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,13 +375,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newpi.data.structionalPatterns.proxy.staticproxy.Main" />
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newpi.data.behavioralPatterns.state.Client" />
       <module name="design-pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newpi.data.structionalPatterns.proxy.*" />
+          <option name="PATTERN" value="com.newpi.data.behavioralPatterns.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,13 +389,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newpi.data.structionalPatterns.adapter.Test" />
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newpi.data.behavioralPatterns.strategy.Client" />
       <module name="design-pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newpi.data.structionalPatterns.adapter.*" />
+          <option name="PATTERN" value="com.newpi.data.behavioralPatterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,13 +403,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newpi.data.structionalPatterns.proxy.dynamicproxy.Test" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newpi.data.behavioralPatterns.template_method.Client" />
       <module name="design-pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newpi.data.structionalPatterns.proxy.dynamicproxy.*" />
+          <option name="PATTERN" value="com.newpi.data.behavioralPatterns.template_method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,13 +417,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.newpi.data.creationalPatterns.factorymethod.Test" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.newpi.data.observer.Main" />
       <module name="design-pattern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.newpi.data.creationalPatterns.factorymethod.*" />
+          <option name="PATTERN" value="com.newpi.data.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -491,19 +501,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.DynamicProxy" />
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.Client (4)" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.DynamicProxy" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Client (4)" />
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +538,7 @@
       <workItem from="1621178573559" duration="1082000" />
       <workItem from="1621260451385" duration="87000" />
       <workItem from="1621260558212" duration="1063000" />
-      <workItem from="1621262159622" duration="16583000" />
+      <workItem from="1621262159622" duration="29220000" />
     </task>
     <task id="LOCAL-00001" summary="update 加锁实现的单例还需要加上volatile关键字，目的是防止编译时指令重排">
       <created>1609056313738</created>
@@ -558,17 +568,24 @@
       <option name="project" value="LOCAL" />
       <updated>1609081369131</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update 适配器模式、动态代理模式">
+      <created>1621322169487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621322169487</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36067000" />
+    <option name="totallyTimeSpent" value="48704000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-533" y="-1057" width="1920" height="1006" extended-state="6" />
+    <frame x="-533" y="-1057" width="1920" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25159913" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -582,7 +599,7 @@
       <window_info anchor="bottom" id="SonarQube" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3380744" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34682712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.285558" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -621,42 +638,269 @@
     <MESSAGE value="update 观察者模式" />
     <MESSAGE value="update 访问者模式" />
     <MESSAGE value="update create type:工厂方法、抽象工厂、建造者、单例" />
-    <option name="LAST_COMMIT_MESSAGE" value="update create type:工厂方法、抽象工厂、建造者、单例" />
+    <MESSAGE value="update 适配器模式、动态代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 适配器模式、动态代理模式" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Observer1.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/Plane.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="680">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/IHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/BaseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Handler1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Handler2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/IObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Observer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Observer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/chain_of_responsibility/Handler3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="184">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/LisiObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/factory/factorymethod/CarFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="390">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/Cat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/observer/BossMonitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="414">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Observer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Observer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+          <folding>
+            <element signature="e#3747#3748#0" expanded="true" />
+            <element signature="e#3784#3785#0" expanded="true" />
+            <element signature="e#5937#5938#0" expanded="true" />
+            <element signature="e#5967#5968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/observer/jdk/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/ConcreteContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/State1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/State2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -667,54 +911,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/Sorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/MyComparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/decorator/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.io.InputStream">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.io.InputStream</OriginalElement>
-          <nodes>
-            <node x="" y="">java.io.Closeable</node>
-            <node x="" y="">java.lang.AutoCloseable</node>
-            <node x="" y="">java.io.InputStream</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-480.5" y="-2.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/creationalPatterns/abstractfactory/HuaweiFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/Sorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -733,319 +940,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/newpi/data/proxy/ConcreateGamePlayer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#3278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/bridge/Bridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/decorator/Decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/bridge/model/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/MyPartDataInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/ThirdPartyDadaInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/adapter/ThirdPartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/staticproxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/IGamePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/ConcreateGamePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/GamePlayHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/strategy/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/staticproxy/StaticProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/staticproxy/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/Proxy1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/Proxy1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-453" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="380" selection-start-line="380" selection-end-line="380" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="423" selection-start-line="423" selection-end-line="423" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/newpi/data/structionalPatterns/proxy/dynamicproxy/Proxy1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/newpi/data/structionalPatterns/proxy/dynamicproxy/Proxy1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#723#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/InvokeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/proxy/DynamicProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="32" column="1" lean-forward="true" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/Proxy1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-457">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="32" />
-          <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="405" column="13" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#1159#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/TimeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/InvokeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/MyProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Sorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/LogHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/CatAgeComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/CatWeightComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/IStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/ConcreteStrategy1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/state/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/ConcreteStrategy2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/StrategyContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/structionalPatterns/proxy/dynamicproxy/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/strategy/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        <state relative-caret-position="69">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/App1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/App2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="26" column="94" selection-start-line="26" selection-start-column="94" selection-end-line="26" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/AbstractApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/newpi/data/behavioralPatterns/template_method/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
